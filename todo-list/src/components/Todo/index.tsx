@@ -1,0 +1,16 @@
+import Checkbox from '../Checkbox';
+import styles from './style.module.css';
+
+type TodoProps = {
+	todo: string;
+	done: boolean;
+};
+
+export default function Todo({ todo, done }: TodoProps) {
+	return (
+		<div className={styles.todo}>
+			<p>{todo}</p>
+			<Checkbox checked={done} />
+		</div>
+	);
+}

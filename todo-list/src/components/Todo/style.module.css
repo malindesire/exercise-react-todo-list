@@ -1,0 +1,8 @@
+.todo {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	font-size: 1.4rem;
+}
