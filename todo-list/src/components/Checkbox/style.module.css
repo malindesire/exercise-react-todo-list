@@ -1,0 +1,5 @@
+.checkbox {
+	width: 2rem;
+	aspect-ratio: 1 / 1;
+	accent-color: var(--color-darkgrey);
+}
