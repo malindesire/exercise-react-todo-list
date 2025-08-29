@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: var(--color-darkgrey);
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	min-height: 100dvh;
+	background-color: var(--color-offwhite);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#root > * {
+	margin-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button,
+input[type='submit'] {
+	appearance: none;
+	display: inline-block;
+	color: inherit;
+	font: inherit;
+	line-height: inherit;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-align: inherit;
+	cursor: pointer;
+}
