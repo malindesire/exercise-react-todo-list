@@ -1,0 +1,5 @@
+.todos {
+	padding: var(--page-margin);
+	background-color: var(--color-heaven);
+	border-radius: 1rem;
+}
