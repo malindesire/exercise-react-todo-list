@@ -6,9 +6,9 @@ type TodoProps = TodoType;
 
 export default function Todo({ todo, done }: TodoProps) {
 	return (
-		<div className={styles.todo}>
+		<li className={styles.todo}>
 			<p>{todo}</p>
 			<Checkbox checked={done} />
-		</div>
+		</li>
 	);
 }
